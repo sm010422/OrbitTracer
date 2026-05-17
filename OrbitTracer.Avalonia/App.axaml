@@ -1,0 +1,17 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="OrbitTracer.App"
+             RequestedThemeVariant="Dark">
+    <Application.Styles>
+        <FluentTheme />
+        <StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml"/>
+    </Application.Styles>
+    <Application.Resources>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="#1A1A2E"/>
+        <SolidColorBrush x:Key="PanelBrush"      Color="#16213E"/>
+        <SolidColorBrush x:Key="AccentBrush"     Color="#0F3460"/>
+        <SolidColorBrush x:Key="HighlightBrush"  Color="#E94560"/>
+        <SolidColorBrush x:Key="TextBrush"        Color="#E0E0E0"/>
+        <SolidColorBrush x:Key="SubTextBrush"     Color="#8A8A9A"/>
+    </Application.Resources>
+</Application>
